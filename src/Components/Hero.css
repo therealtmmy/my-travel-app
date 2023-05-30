@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.Hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+span {
+    font-family: "Inter", sans-serif;
+    letter-spacing: 3px;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    text-decoration: underline;
+    color: #918E9B;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+
+.Date {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+
+.Location {
+    display: flex;
+    gap: 12px;
+    margin-bottom: -15px;
+}
+
+.Hero-Detail {
+    font-size: 19px;
+    width: 27em;
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+    line-height: 30px;
+    margin-top: -5px;
+}
