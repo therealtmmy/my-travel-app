@@ -1,8 +1,9 @@
 import React from "react";
 import "./Nav.css";
+import Data from "./Data";
 import { FaGlobeAmericas } from "react-icons/fa";
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <div className="Nav">
       <p className="Nav-Text">
